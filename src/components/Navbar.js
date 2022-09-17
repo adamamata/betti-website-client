@@ -10,7 +10,7 @@ const pages = ['about', 'work', 'contact'];
 
 const ResponsiveAppBar = () => {
   return (
-    <AppBar position="fixed" style={{background: 'transparent'}}>
+    <AppBar position="fixed" elevation={0} style={{background: 'transparent'}}>
       <Container maxWidth="7xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end' } }}>
