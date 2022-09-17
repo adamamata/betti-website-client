@@ -13,7 +13,7 @@ const ResponsiveAppBar = () => {
     <AppBar position="fixed" elevation={0} style={{background: 'transparent'}}>
       <Container maxWidth="7xl">
         <Toolbar disableGutters>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end' } }}>
+          <Box sx={{ flexGrow: 1, display: { md: 'flex', justifyContent: 'flex-end' } }}>
               <Button sx={{ my: 2, color: 'black', display: 'block', '&:hover': {background: '#FFD9DA'}, margin: 2}}>
                 <Link style={{textDecoration: 'none', color: 'black'}} to={`/`}>HOME</Link>
               </Button>
