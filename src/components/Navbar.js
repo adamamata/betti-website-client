@@ -1,3 +1,4 @@
+// IMPORTS 
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -6,14 +7,16 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 
+// GLOBAL VARIABLES 
 const pages = ['about', 'work', 'contact'];
 
+// NAVBAR
 const ResponsiveAppBar = () => {
   return (
     <AppBar position="fixed" elevation={0} style={{background: 'transparent'}}>
       <Container maxWidth="7xl">
         <Toolbar disableGutters>
-          <Box sx={{ flexGrow: 1, display: { md: 'flex', justifyContent: 'flex-end' } }}>
+          <Box sx={{ flexGrow: 1, display: { md: 'flex', justifyContent: 'flex-end' }}}>
               <Button sx={{ my: 2, color: 'black', display: 'block', '&:hover': {background: '#FFD9DA'}, margin: 2}}>
                 <Link style={{textDecoration: 'none', color: 'black'}} to={`/`}>HOME</Link>
               </Button>
