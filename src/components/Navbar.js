@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
+import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
 
 // GLOBAL VARIABLES 
@@ -18,7 +19,7 @@ const ResponsiveAppBar = () => {
         <Toolbar disableGutters>
           {/* SMALL SCREENS */}
           <Box sx={{ flexGrow: 1, display: {xs: 'flex', md: 'none'}}}>
-          
+            <MenuIcon style={{fill: 'black'}} fontSize='large'/>
           </Box>
           {/* NORMAL - LARGE SCREENS */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end'}}}>
