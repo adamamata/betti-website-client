@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 
 // GLOBAL VARIABLES 
-const pages = ['about', 'work', 'contact'];
+const pages = ['about', 'contact'];
 
 // NAVBAR
 const ResponsiveAppBar = () => {
