@@ -12,7 +12,7 @@ function Home() {
         </Box>
         {/* NORMAL - LARGE SCREENS */}
         <Box sx={{display: {xs: 'none', md: 'flex'}}} className='home-first-section-large' >
-          <h1 id='home-title-large'>Betti Angyan</h1>
+          <h1 style={{fontSize: '8vw', color: 'white', marginLeft: '5vw'}}>Betti Angyan</h1>
         </Box>
       </div>
     </div>

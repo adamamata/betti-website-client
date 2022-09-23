@@ -6,16 +6,9 @@
 
 .home-first-section-large {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background-image: url('/public/assets/images/work_4.JPG');
     background-size: 100%;
-    background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-#home-title-large {
-    font-size: 8vw;
-    color: white;
-    margin-left: 5vw;
 }
