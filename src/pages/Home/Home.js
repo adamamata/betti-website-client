@@ -26,9 +26,9 @@ function Home() {
             </motion.div>
           </div>
           <div>
-              <IconButton sx={{'&:hover': {background: 'white'}, marginBottom: 1}}>
-                  <ArrowDownwardIcon/>
-                </IconButton>
+            <IconButton sx={{'&:hover': {background: 'white'}, marginBottom: 1}}>
+                <ArrowDownwardIcon/>
+              </IconButton>
           </div>
         </Box>
     </div>
