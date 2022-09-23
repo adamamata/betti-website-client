@@ -9,7 +9,6 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
-import { Divider } from '@mui/material';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import { Link } from 'react-router-dom';
 
@@ -19,6 +18,7 @@ const pages = ['about', 'contact'];
 // NAVBAR
 const ResponsiveAppBar = () => {
 
+  //STATES
   const [open, setOpen] = useState(false); 
 
   return (
@@ -31,12 +31,11 @@ const ResponsiveAppBar = () => {
               <MenuIcon style={{fill: 'black'}} fontSize='large' onClick={() => setOpen(true)}/>
             </IconButton>
             <SwipeableDrawer anchor='left' open={open} onOpen={() => setOpen(true)} onClose={() => setOpen(false)}>
-                <div style={{display: 'flex', justifyContent: 'flex-end'}}>
+                <div style={{display: 'flex', justifyContent: 'center'}}>
                   <IconButton>
                     <ChevronLeftIcon onClick={() => setOpen(false)}/>
                   </IconButton>
                 </div>
-                <Divider/>
                 <Button sx={{ my: 2, color: 'black', display: 'block', '&:hover': {background: '#FFD9DA'}, margin: 2}}>
                   <Link style={{textDecoration: 'none', color: 'black'}} to={`/`}>HOME</Link>
                 </Button>
