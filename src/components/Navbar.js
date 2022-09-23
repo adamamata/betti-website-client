@@ -28,7 +28,7 @@ const ResponsiveAppBar = () => {
           {/* SMALL SCREENS */}
           <Box sx={{ flexGrow: 1, display: {xs: 'flex', md: 'none'}}}>
             <IconButton>
-              <MenuIcon style={{fill: 'black'}} fontSize='large' onClick={() => setOpen(true)}/>
+              <MenuIcon style={{fill: 'white'}} fontSize='large' onClick={() => setOpen(true)}/>
             </IconButton>
             <SwipeableDrawer anchor='left' open={open} onOpen={() => setOpen(true)} onClose={() => setOpen(false)}>
                 <div style={{display: 'flex', justifyContent: 'center'}}>
@@ -49,11 +49,11 @@ const ResponsiveAppBar = () => {
           {/* NORMAL - LARGE SCREENS */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end'}}}>
               <Button sx={{ my: 2, color: 'black', display: 'block', '&:hover': {background: '#FFD9DA'}, margin: 2}}>
-                <Link style={{textDecoration: 'none', color: 'black'}} to={`/`}>HOME</Link>
+                <Link style={{textDecoration: 'none', color: 'white'}} to={`/`}>HOME</Link>
               </Button>
             {pages.map((page) => (
               <Button key={page} sx={{ my: 2, color: 'black', display: 'block', '&:hover': {background: '#FFD9DA'}, margin: 2}}>
-                <Link style={{textDecoration: 'none', color: 'black'}} to={`/${page}`}>{page}</Link>
+                <Link style={{textDecoration: 'none', color: 'white'}} to={`/${page}`}>{page}</Link>
               </Button>
             ))}
           </Box>
