@@ -48,11 +48,11 @@ const ResponsiveAppBar = () => {
           </Box>
           {/* NORMAL - LARGE SCREENS */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end'}}}>
-              <Button sx={{ my: 2, color: 'black', display: 'block', '&:hover': {background: '#FFD9DA'}, margin: 2}}>
+              <Button sx={{ my: 2, color: 'black', display: 'block', '&:hover': {background: 'black'}, margin: 2}}>
                 <Link style={{textDecoration: 'none', color: 'white'}} to={`/`}>HOME</Link>
               </Button>
             {pages.map((page) => (
-              <Button key={page} sx={{ my: 2, color: 'black', display: 'block', '&:hover': {background: '#FFD9DA'}, margin: 2}}>
+              <Button key={page} sx={{ my: 2, color: 'black', display: 'block', '&:hover': {background: 'black'}, margin: 2}}>
                 <Link style={{textDecoration: 'none', color: 'white'}} to={`/${page}`}>{page}</Link>
               </Button>
             ))}
