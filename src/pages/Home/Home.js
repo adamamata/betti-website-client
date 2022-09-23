@@ -26,11 +26,9 @@ function Home() {
             </motion.div>
           </div>
           <div>
-            <motion.div whileHover={{scale: 1.3}}>
-              <IconButton>
+              <IconButton sx={{'&:hover': {background: 'white'}, marginBottom: 1}}>
                   <ArrowDownwardIcon/>
                 </IconButton>
-              </motion.div>
           </div>
         </Box>
     </div>
