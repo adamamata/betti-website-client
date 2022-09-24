@@ -21,7 +21,6 @@ function Home() {
         {/* SMALL SCREENS */}
         {/* TOP SECTION */}
         <Box sx={{display: {xs: 'flex', md: 'none'}}} className='home-top-small'>
-
         </Box>
 
         {/* NORMAL - LARGE SCREENS */}
