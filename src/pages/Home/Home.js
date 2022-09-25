@@ -4,7 +4,6 @@ import { IconButton } from '@mui/material';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
-
 import './Home.css';
 
 function Home() {
