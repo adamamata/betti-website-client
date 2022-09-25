@@ -43,6 +43,7 @@ function Home() {
           </IconButton>
           </div>
         </Box>
+        
         {/* WORK SECTION */}
         <Box sx={{display: {xs: 'none', md: 'flex'}}} className='home-work-large' ref={work}>
           <div>
