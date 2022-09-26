@@ -30,8 +30,8 @@ function Home() {
             animate={{opacity: 1}}
             transition={{ ease: "easeOut", duration: 2 }}
             >
-              <h1 style={{fontSize: '8vw', color: 'white', margin: 0}}>Betti Angyan</h1>
-              <h2 style={{fontSize: '3vw', color: 'white', marginLeft: '5vw', paddingBottom: '5vw'}}>Helping clients realize how beautiful they really are.</h2>
+              <h1 style={{fontSize: '20vw', color: 'white', margin: 0}}>Betti Angyan</h1>
+              <h2 style={{fontSize: '7vw', color: 'white', paddingBottom: '5vw'}}>Helping clients realize how beautiful they really are.</h2>
             </motion.div>
           </div>
         </Box>
