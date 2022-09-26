@@ -10,6 +10,13 @@
     align-items: center;
     background-image: url('/public/assets/images/work_4.JPG');
     background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.home-top-small {
+    background-color: #FB4C69;
+    width: 100vw;
+    height: 100vh;
 }
 
 .top-contents {
