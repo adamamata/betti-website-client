@@ -19,6 +19,7 @@ function MD() {
 
     return (
         <div>
+        {/* HERO */}
         <Box sx={{display: {xs: 'none', md: 'flex'}}} className='home-top-large' ref={top}>
           <div className='top-contents'> 
             <motion.div 
@@ -37,6 +38,7 @@ function MD() {
           </IconButton>
           </div>
         </Box>
+        {/* WORK */}
         <Box sx={{display: {xs: 'none', md: 'flex'}}} className='home-work-large' ref={work}>
           <div className='work-contents'>
             <h1 style={{fontSize: '8vw', color: 'white', marginRight: '5vw'}}>My Portfolio</h1>
