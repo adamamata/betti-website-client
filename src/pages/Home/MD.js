@@ -41,7 +41,7 @@ function MD() {
         {/* WORK */}
         <Box sx={{display: {xs: 'none', md: 'flex'}}} className='home-work-large' ref={work}>
           <div className='work-contents'>
-            <h1 style={{fontSize: '8vw', color: 'white', marginRight: '5vw'}}>My Portfolio</h1>
+            <h1 style={{fontSize: '6vw', color: 'white', marginRight: '5vw'}}>My Portfolio</h1>
           </div>
           <div>
             <IconButton sx={{'&:hover': {background: 'white'}, marginBottom: 1}} onClick={() => scroll(top)}>
