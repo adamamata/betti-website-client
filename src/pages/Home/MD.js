@@ -5,6 +5,7 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
+import Slider from '../../components/Slider';
 
 function MD() {
     const work = useRef(null);
@@ -43,6 +44,9 @@ function MD() {
           <div className='work-contents'>
             <h1 style={{fontSize: '6vw', color: 'white', marginRight: '5vw'}}>My Portfolio</h1>
           </div>
+          {/* SLIDER */}
+            <Slider /> 
+          {/* ICON BUTTON */}
           <div>
             <IconButton sx={{'&:hover': {background: 'white'}, marginBottom: 1}} onClick={() => scroll(top)}>
               <ArrowUpwardIcon/>
