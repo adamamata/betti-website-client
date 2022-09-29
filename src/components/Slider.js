@@ -17,7 +17,7 @@ function Slider() {
             <motion.div drag='x' dragConstraints={{right: 0, left: -width}} className='inner-carousel'>
                 {imgArr.map(image => {
                     return (
-                        <motion.div className='item' style={{padding: '40px'}}>
+                        <motion.div className='item' style={{padding: '40px'}} whileHover={{scale: 1.1}}>
                             <img src={image} style={{width: '200px', borderRadius: '2rem', pointerEvents: 'none'}} alt='img'/>
                         </motion.div>
                     )

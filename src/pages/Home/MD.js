@@ -45,6 +45,7 @@ function MD() {
             <h1 style={{fontSize: '6vw', color: 'white', marginRight: '5vw'}}>My Portfolio</h1>
           </div>
           {/* SLIDER */}
+            <p style={{color: 'white'}}>swipe to see more.</p>
             <Slider /> 
           {/* ICON BUTTON */}
           <div>
