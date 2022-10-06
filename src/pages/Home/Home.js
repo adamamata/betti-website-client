@@ -22,6 +22,7 @@ function Home() {
 
   return (
     <div className='Home'>
+
       {/* LANDING */}
       <div className='landing' ref={top}>
         <motion.div
@@ -41,7 +42,7 @@ function Home() {
       </div>
 
       {/* WORK */}
-      <div className='home-work'>
+      <div className='home-work' ref={work}>
         <h1>My Portfolio</h1>
         <p>Swipe to see more.</p>
         <Slider/>
@@ -49,6 +50,7 @@ function Home() {
           <ArrowUpwardIcon/>
         </IconButton>
       </div>
+      
     </div>
   )
 }
