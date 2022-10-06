@@ -1,7 +1,7 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import { motion } from 'framer-motion';
-import Slider from '../../components/Slider';
+import Slider from '../../../components/Slider';
 
 function XS() {
   return (

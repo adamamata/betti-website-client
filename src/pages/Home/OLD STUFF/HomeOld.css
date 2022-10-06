@@ -1,0 +1,45 @@
+.Home {
+    background-color: #FB4C69;
+    width: 100vw;
+}
+
+.home-top-large {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/src/assets/images/work_4.JPG');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.home-top-small {
+    background-color: #FB4C69;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/src/assets/images/work_4.JPG');
+}
+
+.top-contents {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.home-work-large {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFC4C4;
+    align-items: center;
+}
+
+.work-contents {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
