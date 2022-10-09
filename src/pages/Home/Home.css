@@ -58,7 +58,6 @@
     align-items: center;
     justify-content: center;
     background-color: #BAA5FF; 
-    height: 100vh;
 }
 
 .work-headers {
@@ -67,6 +66,6 @@
 }
 
 .home-work h1 {
-    font-size: 4em;
+    font-size: 3em;
 }
 
