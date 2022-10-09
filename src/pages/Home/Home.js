@@ -43,8 +43,10 @@ function Home() {
 
       {/* WORK */}
       <div className='home-work' ref={work}>
-        <h1>My Portfolio</h1>
-        <p>Swipe to see more.</p>
+        <div className='work-headers'>
+          <h1>My Portfolio</h1>
+          <p>Swipe to see more.</p>
+        </div>
         <Slider/>
         <IconButton sx={{'&:hover': {background: 'white'}}} onClick={() => scroll(top)}>
           <ArrowUpwardIcon/>
