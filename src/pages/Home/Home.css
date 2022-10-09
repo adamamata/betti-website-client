@@ -1,0 +1,20 @@
+.landing { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FB4C69;
+}
+
+.landing-headers { 
+    text-align: center;
+    color: white;
+}
+
+.home-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
