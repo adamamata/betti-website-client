@@ -48,7 +48,7 @@ function Home() {
           <p>Swipe to see more.</p>
         </div>
         <Slider/>
-        <IconButton sx={{color: 'white', '&:hover': {background: 'black'}}} onClick={() => scroll(top)}>
+        <IconButton sx={{color: 'white', '&:hover': {background: 'black'}, marginBottom: '10px'}} onClick={() => scroll(top)}>
           <ArrowUpwardIcon/>
         </IconButton>
       </div>
