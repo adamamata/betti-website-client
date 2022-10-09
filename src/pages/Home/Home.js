@@ -35,7 +35,7 @@ function Home() {
               <h2>Helping clients realize how beautiful they really are.</h2>
         </motion.div>
         <div>
-          <IconButton sx={{'&:hover': {background: 'white'}}} onClick={() => scroll(work)}>
+          <IconButton sx={{color: 'white', '&:hover': {background: 'black'}}} onClick={() => scroll(work)}>
             <ArrowDownwardIcon/>
           </IconButton>
         </div>
@@ -48,7 +48,7 @@ function Home() {
           <p>Swipe to see more.</p>
         </div>
         <Slider/>
-        <IconButton sx={{'&:hover': {background: 'white'}}} onClick={() => scroll(top)}>
+        <IconButton sx={{color: 'white', '&:hover': {background: 'black'}}} onClick={() => scroll(top)}>
           <ArrowUpwardIcon/>
         </IconButton>
       </div>
