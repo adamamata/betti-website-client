@@ -1,9 +1,0 @@
-.carousel {
-    cursor: grab;
-    overflow: hidden;
-}
-
-.inner-carousel {
-    display: flex;
-    width: 70vw;
-}

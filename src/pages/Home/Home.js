@@ -5,7 +5,7 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
-import Slider from '../../components/Slider';
+import Slider from '../../components/Slider/Slider';
 
 function Home() {
   //Global Variables

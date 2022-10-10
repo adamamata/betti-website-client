@@ -1,7 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import { useRef, useState, useEffect } from 'react'; 
-import imgArr from './Images.js';
+import imgArr from '../Images.js';
+import './Slider.css';
 
 function Slider() {
     const [width, setWidth] = useState(0);
