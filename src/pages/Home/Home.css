@@ -5,7 +5,7 @@
         align-items: center;
         justify-content: center;
         height: 100vh;
-        background-color: #FB4C69;
+        background-color: #F35067;
         background-image: url('/src/assets/images/work_4.JPG');
         background-size: 100%;
         background-repeat: no-repeat;
@@ -20,7 +20,7 @@
         align-items: center;
         justify-content: center;
         height: 100vh;
-        background-color: #FB4C69;
+        background-color: #F35067;
         background-image: url('/src/assets/images/work_4.JPG');
         background-size: 200%;
         background-position: center;
@@ -35,7 +35,7 @@
         align-items: center;
         justify-content: center;
         height: 100vh;
-        background-color: #FB4C69;
+        background-color: #F35067;
     }
 }
 
@@ -57,7 +57,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #BAA5FF; 
+    background-color: #F9ADAF; 
 }
 
 .work-headers {

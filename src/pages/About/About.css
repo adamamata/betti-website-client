@@ -1,6 +1,6 @@
 .About {
-    background-color: black;
-    height: 200vh;
+    background-color: #5ABAB6;
+    min-height: 100vh;
     color: white;
     display: flex;
     justify-content: center;
@@ -9,4 +9,5 @@
 .about-content {
     padding: 100px;
     text-align: center;
+    width: 50vw;
 }
