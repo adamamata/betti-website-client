@@ -1,15 +1,12 @@
 .About {
     background-color: black;
-    height: 100vh;
+    height: 200vh;
     color: white;
     display: flex;
     justify-content: center;
 }
 
 .about-content {
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 100px;
+    text-align: center;
 }
