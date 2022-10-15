@@ -1,13 +1,13 @@
 .About {
-    background-color: #5ABAB6;
+    background-color: #BFA5A5;
     min-height: 100vh;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .about-content {
     padding: 100px;
-    text-align: center;
+    text-align: justify;
     width: 50vw;
 }
