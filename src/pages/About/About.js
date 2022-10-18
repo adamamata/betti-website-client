@@ -18,6 +18,7 @@ function About() {
         <p>During my time as a student at Art of Colors I started working with professionals as an intern. I worked on photoshoots, fashion shows and films. After graduation I continued working with a variety of clients, at events such as weddings and video interviews. I am open to bookings for all kinds of events. Whether you need a makeup artist for your portfolio shoot as a model, or you want to look your best at a party. I am open-minded and flexible as an artist; I do my best to make all visions come true and make every client happy with the final look.</p>
       </motion.div>
       {/* <img className='betti-photo' src='/betti-photo.jpg' alt='bettiImage'/> */}
+      .
     </div>
   )
 }
