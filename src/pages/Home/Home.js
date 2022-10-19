@@ -14,8 +14,8 @@ function Home() {
   //Global Variables
   const work = useRef(null);
   const top = useRef(null);
-  const about = useRef(null);
-  const contact = useRef(null);
+  // const about = useRef(null);
+  // const contact = useRef(null);
 
   //Scroll function
   const scroll = (e) => {
@@ -54,14 +54,14 @@ function Home() {
         </div>
         <Slider/>
         <div>
-          <IconButton sx={{color: 'white', '&:hover': {background: 'black'}}} onClick={() => scroll(about)}>
-            <ArrowDownwardIcon/>
+          <IconButton sx={{color: 'white', '&:hover': {background: 'black'}}} onClick={() => scroll(top)}>
+            <ArrowUpwardIcon/>
           </IconButton>
         </div>
       </div>
       
       {/* ABOUT */}
-      <div className='about' ref={about}>
+      {/* <div className='about' ref={about}>
       <motion.div
         className='about-content'
         initial={{opacity: 0, x: 20}}
@@ -73,10 +73,10 @@ function Home() {
         <h1>My experience</h1>        
         <p>During my time as a student at Art of Colors I started working with professionals as an intern. I worked on photoshoots, fashion shows and films. After graduation I continued working with a variety of clients, at events such as weddings and video interviews. I am open to bookings for all kinds of events. Whether you need a makeup artist for your portfolio shoot as a model, or you want to look your best at a party. I am open-minded and flexible as an artist; I do my best to make all visions come true and make every client happy with the final look.</p>
       </motion.div>
-      </div>
+      </div> */}
 
       {/* CONTACT */}
-      <div className='contact' ref={contact}>
+      {/* <div className='contact' ref={contact}>
       <h1>Contact me</h1>
       <form>
         <TextField 
@@ -102,7 +102,7 @@ function Home() {
       <IconButton sx={{color: 'white', '&:hover': {background: 'black'}, marginBottom: '10px'}} onClick={() => scroll(top)}>
         <ArrowUpwardIcon/>
       </IconButton>
-      </div>
+      </div> */}
 
     </div>
   )
