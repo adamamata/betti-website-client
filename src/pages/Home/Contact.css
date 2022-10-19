@@ -1,0 +1,13 @@
+.contact {
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.text-field {
+    width: 25em;
+}

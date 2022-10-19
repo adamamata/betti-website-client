@@ -7,6 +7,8 @@ import { motion } from 'framer-motion';
 import { useRef } from 'react';
 import Slider from '../../components/Slider/Slider';
 import { TextField, Button } from '@mui/material';
+import './Contact.css';
+import './About.css';
 
 function Home() {
   //Global Variables
@@ -51,9 +53,11 @@ function Home() {
           <p>Swipe to see more.</p>
         </div>
         <Slider/>
-        <IconButton sx={{color: 'white', '&:hover': {background: 'black'}, marginBottom: '10px'}} onClick={() => scroll(top)}>
-          <ArrowUpwardIcon/>
-        </IconButton>
+        <div>
+          <IconButton sx={{color: 'white', '&:hover': {background: 'black'}}} onClick={() => scroll(about)}>
+            <ArrowDownwardIcon/>
+          </IconButton>
+        </div>
       </div>
       
       {/* ABOUT */}
@@ -95,6 +99,9 @@ function Home() {
         />
         <Button>Submit</Button>
       </form>
+      <IconButton sx={{color: 'white', '&:hover': {background: 'black'}, marginBottom: '10px'}} onClick={() => scroll(top)}>
+        <ArrowUpwardIcon/>
+      </IconButton>
       </div>
 
     </div>
