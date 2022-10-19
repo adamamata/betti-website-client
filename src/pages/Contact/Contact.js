@@ -1,10 +1,16 @@
 import React from 'react';
 import './Contact.css';
-import { TextField, Button } from '@mui/material'
-
+import { TextField, Button } from '@mui/material';
+import { motion } from 'framer-motion';
+ 
 function Contact() {
   return (
     <div className='Contact'>
+    <motion.div 
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      transition={{ ease: "easeOut", duration: 2 }}
+    >
       <form>
         <TextField 
           className='text-field'
@@ -26,6 +32,7 @@ function Contact() {
         />
         <Button>Submit</Button>
       </form>
+    </motion.div>
     </div>
   )
 }
