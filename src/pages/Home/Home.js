@@ -1,4 +1,3 @@
-import React from 'react';
 import './Home.css';
 import { IconButton } from '@mui/material';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
@@ -6,7 +5,8 @@ import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
 import Slider from '../../components/Slider/Slider';
-import { TextField, Button } from '@mui/material';
+// import { TextField, Button } from '@mui/material';
+// import { useInView } from 'react-intersection-observer';
 import './Contact.css';
 import './About.css';
 
@@ -16,6 +16,7 @@ function Home() {
   const top = useRef(null);
   // const about = useRef(null);
   // const contact = useRef(null);
+
 
   //Scroll function
   const scroll = (e) => {
@@ -47,7 +48,9 @@ function Home() {
       </div>
 
       {/* WORK */}
-      <div className='home-work' ref={work}>
+      <motion.div 
+      className='home-work' ref={work}
+      >
         <div className='work-headers'>
           <h1>My Portfolio</h1>
           <p>Swipe to see more.</p>
@@ -58,7 +61,7 @@ function Home() {
             <ArrowUpwardIcon/>
           </IconButton>
         </div>
-      </div>
+      </motion.div>
       
       {/* ABOUT */}
       {/* <div className='about' ref={about}>
