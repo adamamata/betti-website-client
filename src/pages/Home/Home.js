@@ -87,6 +87,7 @@ function Home() {
       {/* CONTACT */}
       <div className='contact' ref={contact}>
       <h1 style={{color: 'white'}}>Contact me</h1>
+      <p style={{color: 'white  '}}>Use this form to get in contact, or send any inquiries to <u>betti.angyan@gmail.com</u></p>
       <form>
         <TextField 
           className='text-field'
