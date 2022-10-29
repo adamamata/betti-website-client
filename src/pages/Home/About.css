@@ -2,14 +2,20 @@
     background-color: #F35067;
     min-height: 100vh;
     color: white;
-    display: flex;
-    justify-content: flex-start;
 }
 
 .about-content {
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
     padding: 100px;
     text-align: justify;
+}
+
+.about-writing {
     width: 50vw;
+    margin-right: 40em;
 }
 
 .betti-photo {
