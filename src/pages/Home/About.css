@@ -27,4 +27,9 @@
     .betti-photo {
         display: none;
     }
+    
+    .about-writing {
+        width: 50vw;
+        margin-right: 0;
+    }
 }
