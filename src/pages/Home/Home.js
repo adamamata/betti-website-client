@@ -1,3 +1,4 @@
+//Imports
 import './Home.css';
 import { IconButton } from '@mui/material';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
@@ -11,6 +12,7 @@ import About from '../../components/About';
 import Contact from '../../components/Contact';
 import PuffLoader from "react-spinners/ClipLoader";
 
+//Main Function
 function Home() {
   //Global Variables
   const work = useRef(null);
