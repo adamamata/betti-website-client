@@ -69,3 +69,12 @@
 .home-work h1 {
     font-size: 3em;
 }
+
+.loader {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #F35067;
+}
