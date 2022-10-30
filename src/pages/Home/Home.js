@@ -63,9 +63,9 @@ function Home() {
       <div className='about' ref={about}>
         <motion.div
           className='about-content'
-          initial={{opacity: 0, x: 20}}
-          whileInView={{opacity: 1, x: 0}}
-          transition={{ ease: "easeOut", duration: 3.5 }}
+          initial={{opacity: 0}}
+          whileInView={{opacity: 1}}
+          transition={{ ease: "easeOut", duration: 4 }}
         >
           <About/>
           <div>
